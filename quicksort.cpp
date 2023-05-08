@@ -11,7 +11,7 @@ int lomuto(int arr[],int f, int l){
     swap(arr[i+1],arr[l]);
     return i+1;
 }
-int partition1(int arr[],int f, int l){
+int randomPart(int arr[],int f, int l){
     srand(time(0)) ;
     int rd = rand()%(l-f+1)+f;
     swap(arr[rd],arr[l]);
@@ -44,7 +44,7 @@ int hoare(int arr[], int f, int l){
 void qs1(int arr[],int f,int l){
     if(f>=l)
         return;
-    int p = partition1(arr,f,l);
+    int p = lomuto(arr,f,l);
     qs1(arr,f,p-1);
     qs1(arr,p+1,l);
 }
