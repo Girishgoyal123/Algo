@@ -33,7 +33,7 @@ void bfs(vector<int>g[],int n,int s){
 
 int main()
 {
-    int n=8, m,r;
+    int n, m,r;
     cout<<"Enter the number of nodes and edeges respectively: ";
     cin>>n>>m;
     cout<<"Enter the root node: ";
@@ -58,7 +58,6 @@ int main()
     // g[4].push_back(2);
     // g[4].push_back(5);
     // g[5].push_back(4);
-    
     // g[5].push_back(6);
     // g[6].push_back(5);
     // g[5].push_back(3);
