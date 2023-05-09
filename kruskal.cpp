@@ -69,6 +69,7 @@ void kruskal(vector<Edge>& edges, int n) {
     }
 }
 
+
 int main() {
     int n = 6;
     vector<Edge> edges = { {0, 1, 4}, {0, 2, 3}, {1, 2, 1}, {1, 3, 2}, {2, 3, 4}, {3, 4, 2}, {4, 5, 6} };

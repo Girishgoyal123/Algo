@@ -67,7 +67,7 @@ class graph{
                 }
             }
         }
-    //  
+    
     cout<<"Source is: "<<s<<endl;
     cout<<"Destination"<<"\t"<<"Distance"<<"\t"<<"Path\n";
     for(int i=0;i<vertices;i++){
