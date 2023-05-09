@@ -25,6 +25,7 @@ void dfs(vector<int>g[],int n,int s){
         if(disc[u] == false){
             cout<<u<<" ";
             disc[u] = true;
+            
         }
         for(int j = g[u].size()-1;j>=0;j--){
             if(disc[g[u][j]] == false){
